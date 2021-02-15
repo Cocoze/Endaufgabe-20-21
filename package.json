@@ -1,0 +1,19 @@
+{
+  "name": "fancyfirework",
+  "version": "1.0.0",
+  "description": "fancy firework website created in ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cocoze/Endaufgabe-20-21.git"
+  },
+  "author": "colleen zeller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cocoze/Endaufgabe-20-21/issues"
+  },
+  "homepage": "https://github.com/Cocoze/Endaufgabe-20-21#readme"
+}
