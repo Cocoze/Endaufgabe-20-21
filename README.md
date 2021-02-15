@@ -1,1 +1,4 @@
-# Endaufgabe-20-21
+# Endabgabe
+
+## Server starten
+node server script/server.js

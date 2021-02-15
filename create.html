@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create new rocket</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script/SendRocketToServer.js" defer></script>
+</head>
+
+<body id="createFirework">
+<h2>Create new ROCKET</h2>
+<br>
+<form class="createForm">
+    <h3>Name der Rakete</h3>
+    <input type="text" name="Name" class="name" placeholder="Name des Feuerwerks">
+    <br>
+    <h3>Feuerwerksgröße</h3>
+    <input type="number" name="Partikelanzahl" class="feuergr" >
+    <br>
+    <h3>Partikelgröße</h3>
+    <input type="number" name="Partikelbreite" class="breite">
+    <br>
+    <h3>Farbe </h3>
+    <input type="color" name="Farbe" class="farbe">
+    <br>
+    <br>
+    <h3>Lebensdauer</h3>
+    <input width="100%" type="range" min="40" max="200" step="10" value="0" name="Lebensdauer" class="dauer">
+    <p>kurz - lang</p>
+
+    <p>
+        <a href="#" class="button" id="submitbutton">save</a>
+        <br>
+        <br>
+        <a href="firework.html" class="button">test your rocket</a>
+    </p>
+</form>
+<br>
+
+
+
+</body>
+
+</html>
