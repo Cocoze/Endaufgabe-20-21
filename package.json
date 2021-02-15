@@ -4,7 +4,7 @@
     "description": "fancy firework website created in ts",
     "main": "index.js",
     "scripts": {
-        "start": "node script/server.js"
+        "start": "node server script/server.js"
     },
     "repository": {
         "type": "git",

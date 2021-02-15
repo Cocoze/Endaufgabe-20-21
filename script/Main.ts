@@ -115,9 +115,10 @@ namespace firework {
      *  bevor wir weitermachen
      */
     async function loadRockets(): Promise<void> {
-        //let url: string = "https://xxx.herokuapp.com/get";
         // url zum Server
-        let url: string = "http://localhost:5001/get";
+        let url: string = "https://fancyfirework.herokuapp.com/get";
+    
+        //let url: string = "http://localhost:5001/get";
         // Antwort vom Server anfragen
         let response: Response = await fetch(url);
         /**

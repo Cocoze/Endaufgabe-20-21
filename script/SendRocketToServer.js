@@ -14,8 +14,8 @@ var firework;
         // Erstelle eine neue Anfrage (Url query) mit allen Daten aus dem Formular
         let query = new URLSearchParams(formData);
         // Setze URL zum Server fest: (entweder localhost oder heroku)
-        //let url: string = "https://alraune.herokuapp.com/?" + query.toString();
-        let url = "http://localhost:5001/add?" + query.toString();
+        let url = "https://fancyfirework.herokuapp.com/add?" + query.toString();
+        //let url: string = "http://localhost:5001/add?" + query.toString();
         // Warte auf Antwort des Servers
         let response = await fetch(url);
         // Schreibe Antwort des Servers in Console
