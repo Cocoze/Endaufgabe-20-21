@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "fancy firework website created in ts",
     "main": "index.js",
+    "dependencies": {
+        "mongodb": "^3.5.9"
+    },
     "scripts": {
         "start": "node server script/server.js"
     },
