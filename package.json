@@ -2,14 +2,14 @@
     "name": "fancyfirework",
     "version": "1.0.0",
     "description": "fancy firework website created in ts",
-    "main": "server.js",
+    "main": "Server.js",
     "dependencies": {
         "@types/mongodb": "^3.5.34",
         "mongodb": "^3.6.3"
     },
     "devDependencies": {},
     "scripts": {
-        "start": "node script/server.js"
+        "start": "node script/Server.js"
     },
     "repository": {
         "type": "git",
