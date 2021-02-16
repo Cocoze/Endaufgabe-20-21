@@ -132,7 +132,7 @@ namespace firework {
                  */
                 let particle: RocketExplosionParticle = new RocketExplosionParticle(this._timeToLive, i * 10, this.posX, this.posY, this._color, this._particleWidth, this._context);
 
-                // FÜge das eben erstellte Particle (Kreis) dem array mit allen Partikeln hinzu
+                // Füge das eben erstellte Particle (Kreis) dem array mit allen Partikeln hinzu
                 this.particles.push(particle);
             }
         }

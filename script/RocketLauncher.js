@@ -17,7 +17,7 @@ var firework;
          * b) weist die Rakete an, sich zu zeichnen und nachzusehen, ob sie jetzt oft genug gezeichnet wurde
          */
         updateRocketLauncher() {
-            // mache für alle Rakten im rockets array das Folgende:
+            // mache für alle Rakten im rockets Array das Folgende:
             for (let i = 0; i < this.rockets.length; i++) { // this.rockets.length ist die Anzahl der Raketen in dem Array rockets
                 if (this.rockets[i].endOfLife) { // frage, ob Rakete am Ende ihres Lebens ist
                     this.rockets.splice(i, 1); // a) wenn ja, entferne Rakete aus rockets array

@@ -13,13 +13,14 @@ body {
     margin: 0;
 }
 
-p, input {
+p,
+input {
     text-align: center;
 }
 
-.button{
+.button {
     color: white;
-    background-color: rgba(87, 101, 116,0.5);
+    background-color: rgba(87, 101, 116, 0.5);
     font-size: larger;
     font-weight: bolder;
     text-transform: uppercase;
@@ -27,11 +28,12 @@ p, input {
     border-radius: 5px;
 }
 
-a:any-link{
+a:any-link {
     text-decoration: none;
 }
 
-#start, #createFirework {
+#start,
+#createFirework {
     background-image: url("firework-blur.jpg");
     background-size: 80% auto;
 }
@@ -40,31 +42,30 @@ a:any-link{
     margin-top: -20px;
     width: 200px;
     height: 200px;
-
 }
 
 .main {
     color: white;
-    background-color: rgba(255, 118, 117,0.9);
+    background-color: rgba(255, 118, 117, 0.9);
     font-size: larger;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 6px 6px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-top: 200px;
     width: 400px;
-    height: 140px;
+    height: 160px;
     text-align: center;
-    margin-left: 500px;
+    margin-left: 580px;
 }
 
 .createForm {
-    background-color: rgba(255, 118, 117,0.9);
+    background-color: rgba(255, 118, 117, 0.9);
     border-style: dashed;
-    border-color: rgb(255, 119, 0);
+    border-color: white;
     width: 500px;
-    height: 650px;
-    margin-left: 450px;
+    height: 700px;
+    margin-left: 530px;
     margin-top: -20px;
 }
 
@@ -76,19 +77,19 @@ h1 {
 h2 {
     font-family: sans-serif;
     font-size: 40px;
-    color: rgb(255, 119, 0);
+    color: white;
     text-align: center;
 }
 
 h3 {
-    color: rgb(18, 18, 164);
+    color: rgb(9, 9, 92);
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
 h4 {
-    color: rgb(18, 18, 164);
+    color: rgb(9, 9, 92);
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 900px;
@@ -96,7 +97,7 @@ h4 {
 }
 
 h5 {
-    color: rgb(18, 18, 164);
+    color: rgb(9, 9, 92);
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 900px;
@@ -108,10 +109,11 @@ h5 {
 }
 
 p {
-    color: rgb(18, 18, 164);
+    color: rgb(9, 9, 92);
 }
 
-.b5, .fireWorkButton {
+.b5,
+.fireWorkButton {
     background-color: black;
     color: white;
     width: 100px;
@@ -124,7 +126,6 @@ p {
 form {
     margin-right: 500px;
 }
-
 
 .name {
     margin-left: 160px;
@@ -147,9 +148,6 @@ form {
 }
 
 .dauer {
-    margin-left: 160px;
+    margin-left: 185px;
     text-align: center;
 }
-
-
-

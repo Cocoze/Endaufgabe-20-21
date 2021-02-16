@@ -2,19 +2,19 @@
 var firework;
 (function (firework) {
     /**
-     * Reagiert auf Wünsche des Nutzers und sagt dann dem ROcketLauncher,
+     * Reagiert auf Wünsche des Nutzers und sagt dann dem RocketLauncher,
      * dass eine neue Rakete hinzugefügt werden soll
      *
      *
      *
-     * Main ist für die rocket.html verantwortlich
+     * Main ist für die firework.html verantwortlich
      * Hier wird auf Klicks auf das canvas reagiert und neue Raketen erstellt
      * Die Raketen werden am Anfang vom Server abgerufen (der die Raketen aus der MongoDB lädt)
      */
-    // Die Stelle im rockets array, an der die ausgewählte Rakete liegt (am anfang wird das erste gewählt)
+    // Die Stelle im rockets Array, an der die ausgewählte Rakete liegt (am anfang wird das erste gewählt)
     let selectedRocket = 0;
     /**
-     * Ein array mit allen Raketen (wird mit loadRockets() mit Daten aus der MongoDB gefüllt)
+     * Ein Array mit allen Raketen (wird mit loadRockets() mit Daten aus der MongoDB gefüllt)
      * diese Rakten haben noch keine Position
      */
     let rockets = [];
@@ -61,7 +61,7 @@ var firework;
         let rocketWithoutCoordinates = rockets[selectedRocket];
         // Erstelle Rakete mit allen EIgenschaften der ausgewählten Rakete + den Koordinaten der Maus
         let rocket = new firework.Rocket(x, y, rocketWithoutCoordinates.color, rocketWithoutCoordinates.timeToLive, rocketWithoutCoordinates.amountOfParticles, rocketWithoutCoordinates.particleWidth, context);
-        // Rakte mit Koordinaten dem rocketLauncher hinzufügen, der dafür sorgt, dass diese dann auch gezeichnet wird
+        // Rakete mit Koordinaten dem rocketLauncher hinzufügen, der dafür sorgt, dass diese dann auch gezeichnet wird
         rocketLauncher.addRocket(rocket);
     });
     /**
